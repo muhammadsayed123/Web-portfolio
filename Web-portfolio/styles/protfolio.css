@@ -4,8 +4,19 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
+
+/* header */
+
+.header{
+    background-image: url('../Image/developer.png'),url('../Image/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+
+
 
 /* Shared style */
 
@@ -24,13 +35,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 200px;
 
 }
 
 .nav-title{
     font-weight: 800px;
     font-size: 45px;
+    /* margin:100px; */
 }
 nav ul{
     display: flex;
@@ -56,4 +68,29 @@ nav li a{
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+}
+/* Banner style */
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight:bold;
+    font-size: 85px;
+}
+.banner-discription{
+
+}
+.banner-pic{
+    width: 580px;
+}
+.banner-contant{
+    max-width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
 }
